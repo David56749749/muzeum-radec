@@ -1,0 +1,23 @@
+:root {
+    /*custom colors*/
+    --color-primary-dark: #001023;
+    --color-primary-light: #48a1f5;
+    --color-primary: #2a74b9;
+    --color-secondary: #718096;
+    --color-secondary-light: #98aac5;
+    --color-background-light: #f7f7f7;
+    --color-success: #28a745;
+    --color-danger: #dc3545;
+    --color-warning: #ffc107;
+    --color-info: #17a2b8;
+    --color-light: #f8f9fa;
+    --color-gray-dark: #343a40;
+    --color-nav-link-hover: #ffc928;
+    --color-landing-overlay: rgba(0, 0, 0, 0.63);
+
+    /*basic colors */
+    --color-white: #fff;
+
+    /*buttons*/
+    --color-btn-green-light: #28a745;
+}

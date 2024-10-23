@@ -1,0 +1,77 @@
+/* components/Contact.module.css */
+.contactSection {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.textarea {
+    height: 150px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: var(--color-white);
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.companyInfo {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.companyInfo h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.companyInfo p {
+    font-size: 1rem;
+    color: #555;
+}

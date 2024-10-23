@@ -1,0 +1,13 @@
+:root {
+    --section-title-xs: var(--font-size-sm);
+    --section-title-sm: var(--font-size-md);
+    --section-title-md: var(--font-size-lg);
+    --section-title-lg: var(--font-size-xl);
+    --section-title-xl: var(--font-size-xxl);
+    --section-title-xxl: var(--font-size-xxxl);
+
+    --section-title-light: var(--font-weight-normal);
+    --section-title-normal: var(--font-weight-semibold);
+    --section-title-bold: var(--font-weight-bold);
+    --section-title-extrabold: var(--font-weight-extrabold);
+}

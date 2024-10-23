@@ -1,0 +1,70 @@
+/* components/AboutUs.module.css */
+.aboutSection {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--color-gray);
+    margin-bottom: 30px;
+}
+
+.mission {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #28a745;
+}
+
+.paragraph {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.teamSection {
+    margin-top: 50px;
+}
+
+.teamHeader {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.teamMembers {
+    display: flex;
+    gap: 20px;
+}
+
+.teamMember {
+    text-align: center;
+}
+
+.memberImage {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.memberName {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.memberRole {
+    color: var(--color-gray);
+}

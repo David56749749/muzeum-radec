@@ -1,0 +1,30 @@
+@import "./Styles/Variables/colors.css";
+@import "./Styles/Variables/sizes.css";
+@import "./Styles/Bootstrap/container.css";
+@import "./Styles/Bootstrap/section.css";
+@import "./Styles/Variables/breakpoints.css";
+@import "./Styles/Variables/layout_components/header.css";
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background-light);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

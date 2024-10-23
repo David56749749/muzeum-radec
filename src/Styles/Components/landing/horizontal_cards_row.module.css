@@ -1,0 +1,76 @@
+/* components/HorizontalCardsRow.module.css */
+.main_content_wrapper {}
+
+.header {
+    text-align: center;
+    margin-bottom: var(--margin-sm);
+}
+
+.title {
+    font-size: var(--font-size-sm);
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--color-gray);
+}
+
+.apartmentGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.apartmentCard {
+    background-color: var(--color-white);
+    padding: var(--padding-md);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.apartmentCard:hover {
+    transform: translateY(-5px);
+}
+
+.apartmentImage {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.apartmentInfo {
+    padding: 10px 0;
+}
+
+.apartmentName {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.apartmentLocation {
+    color: #555;
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 1.1rem;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.ctaButton {
+    background-color: #007bff;
+    color: var(--color-white);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: var(--color-primary-dark);
+}

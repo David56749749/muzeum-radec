@@ -1,0 +1,35 @@
+/* ApartmentDescription.module.css */
+
+.paragraph {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.feature {
+    text-align: center;
+}
+
+.featureHeading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1a202c;
+}
+
+.featureText {
+    font-size: 1rem;
+    color: #718096;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .features {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

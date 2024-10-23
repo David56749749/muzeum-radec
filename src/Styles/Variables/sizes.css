@@ -1,0 +1,98 @@
+:root {
+    /* Padding Sizes */
+    --padding-xs: 4px;
+    --padding-sm: 8px;
+    --padding-md: 16px;
+    --padding-lg: 24px;
+    --padding-xl: 32px;
+    --padding-xxl: 48px;
+    --padding-xxxl: 64px;
+
+    /* Margin Sizes  */
+    --margin-xs: 4px;
+    --margin-sm: 8px;
+    --margin-md: 16px;
+    --margin-lg: 24px;
+    --margin-xl: 32px;
+    --margin-xxl: 48px;
+    --margin-xxxl: 64px;
+    --margin-section: 80px;
+
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
+    --spacing-xxxl: 64px;
+
+    /* Font Sizes */
+    --font-size-xs: 12px;
+    --font-size-xs-1: 10px;
+    --font-size-xs-2: 13px;
+    --font-size-xs-3: 11px;
+
+    --font-size-sm: 14px;
+    --font-size-sm-1: 14px;
+    --font-size-sm-2: 15px;
+    --font-size-sm-3: 16px;
+
+    --font-size-md: 16px;
+    --font-size-md-1: 17px;
+    --font-size-md-2: 18px;
+    --font-size-md-3: 19px;
+
+    --font-size-lg: 18px;
+    --font-size-lg-1: 20px;
+    --font-size-lg-2: 22px;
+    --font-size-lg-3: 23px;
+
+    --font-size-xl: 24px;
+    --font-size-xl-1: 28px;
+    --font-size-xl-2: 30px;
+    --font-size-xl-3: 32px;
+
+    --font-size-xxl: 32px;
+    --font-size-xxl-1: 36px;
+    --font-size-xxl-2: 40px;
+    --font-size-xxl-3: 44px;
+
+    --font-size-xxxl: 40px;
+
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+
+    /*Border Radiuses*/
+    --border-radius-xs: 2px;
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+    --border-radius-xl: 24px;
+    --border-radius-xxl: 32px;
+    --border-radius-full: 9999px;
+
+    /*Shadows*/
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 8px 12px rgba(0, 0, 0, 0.15);
+    --shadow-xl: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+    /*Line Heights*/
+    --line-height-xs: 1.2;
+    --line-height-sm: 1.4;
+    --line-height-md: 1.6;
+    --line-height-lg: 1.75;
+    --line-height-xl: 2;
+
+    /*Transitions*/
+    --transition-fast: 0.1s;
+    --transition-normal: 0.3s;
+    --transition-slow: 0.5s;
+}
