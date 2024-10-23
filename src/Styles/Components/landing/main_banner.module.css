@@ -10,6 +10,7 @@
     background-image: url('/main/landing/main-banner.jpg');
     color: var(--color-white);
     text-align: center;
+    padding: var(--padding-xxl);
 }
 
 .overlay {
@@ -23,7 +24,12 @@
 }
 
 .content {
-    width: 60%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
     z-index: 2;
 }
@@ -42,7 +48,9 @@
 
 .subtitle {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: var(--spacing-xxl);
+    width: 100%;
     font-size: var(--font-size-xl-2);
     margin-bottom: var(--margin-xxxl);
     color: var(--color-secondary-light);
@@ -57,6 +65,7 @@
     border-radius: var(--border-radius-lg);
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 20%;
 }
 
 .ctaButton:hover {
