@@ -7,17 +7,16 @@ const Header = () => {
         <header className="header">
             <section className='section'>
                 <div className="header__wrapper container">
-                    <div className="header__logo">
-                        <div className="header__img-wrapper">
-                            <Image
-                                width={50}
-                                height={50}
-                                src="/main/logo.png"
-                                alt="Muzeum Chalupeni Logo"
-                                layout="responsive"
-                            />
-                        </div>
-                        <Link href="/">
+                    <div className="header__logo-wrapper">
+                        <Image
+                            className='header__logo-image'
+                            width={50}
+                            height={50}
+                            src={Constants.images.logo}
+                            alt="Muzeum Chalupeni Logo"
+                            layout="responsive"
+                        />
+                        <Link className='header__title' href="/">
                             <p>{Constants.textBlocks.web_title}</p>
                         </Link>
                     </div>

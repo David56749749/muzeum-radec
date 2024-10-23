@@ -19,8 +19,6 @@
     margin: 0;
     padding-top: 0;
     padding-bottom: 0;
-    display: flex;
-    align-items: center;
 }
 
 .header__wrapper {
@@ -29,10 +27,24 @@
     align-items: center;
 }
 
-.header__logo {
+.header__title {
+    display: flex;
+    align-items: center;
     color: var(--color-white);
-    font-size: 1.8rem;
+    font-size: var(--font-size-xl-2);
     font-weight: bold;
+}
+
+.header__logo-wrapper {
+    display: flex;
+}
+
+.header__logo-image {
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: contain;
+    overflow: hidden;
+    margin-right: var(--margin-sm);
 }
 
 .header__nav {

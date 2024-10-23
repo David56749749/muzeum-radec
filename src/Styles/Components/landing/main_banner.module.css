@@ -1,7 +1,7 @@
 /* Components/HorizontalCardsRowBanner.module.css */
 .banner {
     position: relative;
-    height: calc(100vh - var(--header-height));
+    height: calc(70vh - var(--header-height));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
     right: 0;
     bottom: 0;
     background-color: var(--color-landing-overlay);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
 }
 
 .content {
@@ -30,7 +30,14 @@
 
 .title {
     font-size: 80px;
+    line-height: 0.8;
     margin-bottom: var(--margin-xxl);
+}
+
+.titleLogo {
+    width: 260px !important;
+    height: auto !important;
+    margin-bottom: var(--margin-xxxl);
 }
 
 .subtitle {
