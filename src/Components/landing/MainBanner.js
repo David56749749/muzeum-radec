@@ -1,5 +1,5 @@
 // Components/HorizontalCardsRowBanner.js
-import styles from "@/Styles/Components/landing/main_banner.module.scss";
+import styles from "@/Styles/Components/landing/main_banner.module.css";
 import Image from "next/image";
 import Constants from "../../Constants";
 const MainBanner = () => {

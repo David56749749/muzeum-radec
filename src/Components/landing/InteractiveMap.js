@@ -1,7 +1,5 @@
 // components/Map.js
 "use client"
-import 'leaflet/dist/leaflet.css';
-
 export default function InteractiveMap() {
     return (
         <div className='section section--bg-dark'>
